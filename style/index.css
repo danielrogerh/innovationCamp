@@ -22,6 +22,7 @@ body{
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 35px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #logo0 {
@@ -59,12 +60,13 @@ body{
     margin: 0px;
     box-sizing: border-box;
     width: 100%;
-    background-color: rgba(56, 56, 56, 0.7);
+    background-color: rgba(56, 56, 56, 0.8);
     color: rgb(240, 238, 238);
     font-size: 25px;
     padding-top: 50px;
     height: 135px;
     text-align: center;
+    letter-spacing: 0.8px;
     
 }
 
@@ -87,18 +89,20 @@ h2 img{
 }
 
 .parallaxBilde h5{
+    
     text-transform: uppercase;
     position: relative;
     top: 515px;
     margin: 0px;
     box-sizing: border-box;
     width: 100%;
-    background-color: rgba(56, 56, 56, 0.7);
+    background-color: rgba(56, 56, 56, 0.8);
     color: rgb(240, 238, 238);
     font-size: 25px;
     padding-top: 50px;
     height: 135px;
     text-align: center;
+    letter-spacing: 0.8px;
 }
 
 .text {
@@ -210,7 +214,8 @@ footer{
     border-radius: 20%;
     margin-top: 20px;
     margin-right: 20px;
-    margin-left: -10px;  
+    margin-left: -10px; 
+    box-sizing: border-box; 
 }
 
 .soicalMedia img:hover{
@@ -236,13 +241,10 @@ font-style: italic;
 
 @media only screen and (max-width: 850px){
 
-.header{
-    height: 75px;
-}
 
 .header h1{
     font-size: 28px;
-    padding-top: 23px;
+    padding-top: 35px;
 }
 
 #logo0 {
@@ -266,8 +268,7 @@ font-style: italic;
 .rekkeBussen h2{
     font-size: 20px;
     height: 120px;
-    top: 485px;
-    padding-top: 30px;
+    top: 460px;
 
 }
 
@@ -277,25 +278,32 @@ h2 img{
 
 .parallaxBilde{
     background-image: url(../content/bussForTogMobil.png);
+    height: 600px;
+    background-position: right;
 }
 .parallaxBilde h5{
     font-size: 20px;
     height: 120px;
     padding-top: 40px;
-    top: 380px;
+    top: 480px;
 }
 
-.soicalMedia img{
-height: 40px;
-width: 40px;
-margin-top: 15px;
-margin-right: 25px;
+
+
+
+.soicalMedia img:hover{
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
+    float: none;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: -10px; 
+    position: relative;
+
 }
 
-footer p{
-    float: left;
-    padding-top: 0.5%;
-}
 
 .text h2{
     clear: right;
@@ -325,7 +333,80 @@ footer p{
     padding-bottom: 30px;
 }
 
+footer{
+    height: auto;
+}
+
+
+@media only screen and (max-width: 570px){
+    
+
+.soicalMedia{
+    float: none;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 60px;
+
+}
+
+.soicalMedia img{
+    background-color: rgb(240, 238, 238);
+    margin: 20px;
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
+    float: none;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+   margin-bottom: 15px;
+}
+
+footer p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    font-size: 15px;
+    font-style: italic;
+    clear: right;
+    width: 80%;
+    text-align: center;
+    
+}
+
 .footerIcon{
     display: none;
+
+}
+
+.soicalMedia img:hover{
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
+    float: none;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+   margin-bottom: 15px;
+}
+
+
+.rekkeBussen h2{
+    font-size: 20px;
+    height: 120px;
+    padding-top: 30px;
+
+}
+.header h1{
+    letter-spacing: 0px;
+}
 
 }

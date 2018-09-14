@@ -196,51 +196,69 @@ footer{
     margin: 0px;
     background-color: rgb(56, 56, 56);
     height: auto;
-    min-height: 75px;    
+    min-height: 100px;    
 }
 
-.footerIcon{
-    height: 50px;
+#footerIcon img{
     position: absolute;
-    padding-top: 10px;
-    padding-left: 10px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 5px solid rgb(240, 238, 238);
+}
+
+#footerIcon img:hover{
+    border: none;
+    margin-left: 17.5px;
+    margin-top: 12.5px;
+    height: 65px;
+
+    
 }
 
 .soicalMedia img{
     border-radius: 10%;
-    height: 32px;
-    width: 32px;
+    height: 53px;
+    width: 53px;
     float: right;
-    border-radius: 20%;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-right: 20px;
     margin-left: -10px; 
     box-sizing: border-box; 
+    border-radius: 50%;
+    border: 3px solid rgb(240, 238, 238);
+    padding: 3px;
 }
 
 .soicalMedia img:hover{
-    height: 35px;
-    width: 35px;
-    box-sizing: border-box;
-    margin-left: -13px;
+    border: none;
+    padding: 0px;
+    border-radius: 30%;
 }
 
-footer p{
 
+
+footer p{
+position: relative;
+top: 40px;
 color: rgb(240, 238, 238);
 margin-bottom: 0px;
 margin-left: auto;
 margin-right: auto;
-padding-top: 2%;
 text-align: center;
 width: 50%;
 font-size: 15px;
 font-style: italic;
+border-bottom: 2px solid rgb(240, 238, 238);
+padding-bottom: 5px;
 
 }
 
 @media only screen and (max-width: 850px){
-
 
 .header h1{
     font-size: 28px;
@@ -289,19 +307,33 @@ h2 img{
 }
 
 
-
+.soicalMedia img{
+    border-radius: 20%;
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 0px; 
+    box-sizing: border-box; 
+    border-radius: 20%;
+    border: none;
+    padding: 0px;
+  
+}
 
 .soicalMedia img:hover{
-    border-radius: 10%;
-    height: 50px;
-    width: 50px;
-    float: none;
     border-radius: 20%;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: -10px; 
-    position: relative;
-
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 0px; 
+    box-sizing: border-box; 
+    border-radius: 20%;
+    border: none;
+    padding: 0px;
 }
 
 
@@ -333,69 +365,61 @@ h2 img{
     padding-bottom: 30px;
 }
 
-footer{
-    height: auto;
+
+
+footer p{
+    border: none
 }
+
 
 
 @media only screen and (max-width: 570px){
     
-
-.soicalMedia{
-    float: none;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    width: 60px;
-
+footer{
+    margin: 0px;
+    padding: 0px;
 }
+
+
+
 
 .soicalMedia img{
     background-color: rgb(240, 238, 238);
-    margin: 20px;
     border-radius: 10%;
+    margin-left: 23%;
+    margin-right: -60px;
     height: 50px;
     width: 50px;
     float: none;
     border-radius: 20%;
     margin-top: 20px;
-    margin: 0px auto;
     position: relative;
-    top: 20px;
-   margin-bottom: 15px;
+    top: 10px;
+    margin-bottom: 0px;
+}
+.soicalMedia img:hover{
+    background-color: rgb(240, 238, 238);
+    border-radius: 10%;
+    margin-left: 23%;
+    margin-right: -60px;
+    height: 50px;
+    width: 50px;
+    float: none;
+    border-radius: 20%;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 0px;
 }
 
+
 footer p{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2%;
-    font-size: 15px;
-    font-style: italic;
-    clear: right;
-    width: 80%;
-    text-align: center;
+    display: none;
     
 }
 
-.footerIcon{
-    display: none;
-
-}
-
-.soicalMedia img:hover{
-    border-radius: 10%;
-    height: 50px;
-    width: 50px;
-    float: none;
-    border-radius: 20%;
-    margin-top: 20px;
-    margin: 0px auto;
-    position: relative;
-    top: 20px;
-   margin-bottom: 15px;
+#footerIcon{
+display:none;
 }
 
 

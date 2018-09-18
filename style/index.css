@@ -122,7 +122,7 @@ h2 img{
 .text h1{
     box-sizing: border-box;
     background-color: rgb(211, 10, 14);
-    background: rgb(56, 56, 56));
+    background: rgb(56, 56, 56);
     font-weight: bold;
     margin: auto;
     width: 100%;
@@ -207,8 +207,8 @@ footer{
 
 .soicalMedia img{
     border-radius: 10%;
-    height: 32px;
-    width: 32px;
+    height: 38px;
+    width: 38px;
     float: right;
     border-radius: 20%;
     margin-top: 20px;
@@ -220,8 +220,8 @@ footer{
 }
 
 .soicalMedia img:hover{
-    height: 35px;
-    width: 35px;
+    height: 41px;
+    width: 41px;
     box-sizing: border-box;
     margin-left: -13px;
 }
